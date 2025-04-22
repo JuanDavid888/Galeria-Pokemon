@@ -1,4 +1,4 @@
-#### Galería de Pokémon
+## Galería de Pokémon
 
 **Descripción**
 Crea una galería de “Pokémon” donde el usuario pueda:
