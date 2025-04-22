@@ -45,6 +45,7 @@ input {
     font-family: 'Lucida Sans';
     font-weight: bold;
     font-size: 1rem;
+    cursor: pointer;
 }
 
 .card {
