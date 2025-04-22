@@ -1,1 +1,15 @@
 // Doble click para cambiar foto
+const namePoke = document.getElementById('namePoke')
+const imgPoke = document.getElementById('imgPoke')
+const addPoke = document.getElementById('addPoke')
+
+addPoke.addEventListener('click', (e)=>{
+    e.preventDefault()
+    console.log(namePoke.value);
+    
+    const card = document.createElement('div')
+    card.classList.add('card')
+    card.innerHTML = `
+    <img class="img" src="${imgPoke.value}" alt="${namePoke.value}">`
+    document.getElementById('list').appendChild(card)
+})

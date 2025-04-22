@@ -1,0 +1,25 @@
+.card {
+    display: grid;
+    background: #b5fdfd;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    width: 16rem;
+    height: 22rem;
+    padding: 1.5rem;
+    margin: 0.5rem 0;
+    border: 1px solid red;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+.name {
+
+    color: #0c2ab3;
+    text-align: center;
+}
+.img {
+    background: #fff;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    border-radius: 2rem;
+}
