@@ -1,11 +1,15 @@
 body {
     background: beige;
     padding: 1rem;
+    text-align: center;
 }
 
 .title {
+    background: linear-gradient(rgb(247, 61, 61), rgb(0, 140, 255));
+    color: #fff;
     text-align: center;
-    font-family: 'Arial'
+    font-family: 'Arial';
+    border-radius: 2rem;
 }
 
 .card {
