@@ -1,0 +1,1 @@
+// Doble click para cambiar foto
