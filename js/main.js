@@ -16,5 +16,13 @@ function agregarPoke() {
     removeButton.addEventListener('click', function() {
         card.remove();
     });
+
+    const changeImg = card.querySelector('img')
+    const img = card.querySelector('img')
+    changeImg.addEventListener('dblclick', function() {
+        let newImg = prompt('Ingrese la nueva URL del pokémon')
+        img.src = `${newImg}`
+    })
 }
 addPoke.addEventListener('click', agregarPoke)
+

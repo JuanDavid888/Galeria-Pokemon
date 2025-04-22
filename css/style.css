@@ -13,6 +13,10 @@ body {
     border-radius: 2rem;
 }
 
+#form {
+    margin-top: 3rem;
+}
+
 #namePoke {
     height: 1.5rem;
     border-radius: .5rem;
@@ -67,14 +71,19 @@ input {
     margin-top: 5rem;
 }
 .name {
+    position: absolute;
+    margin-top: 18%;
+    margin-left: 4.5%;
     color: #0c2ab3;
     text-align: center;
 }
 .img {
+    position: absolute;
     background: #fff;
     display: flex;
-    height: 100%;
-    width: 100%;
+    height: 30%;
+    width: 14%;
+    margin-top: 1%;
     object-fit: contain;
     border-radius: 2rem;
 }
@@ -83,7 +92,6 @@ input {
     position: relative;
     margin-left: 96%;
     margin-top: -8%;
-    margin-bottom: 1%;
     border: none;
     background: transparent;
     color: red;
