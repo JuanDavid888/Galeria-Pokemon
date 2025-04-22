@@ -23,3 +23,16 @@
     object-fit: contain;
     border-radius: 2rem;
 }
+.delete {
+    display: flex;
+    position: relative;
+    margin-left: 96%;
+    margin-top: -8%;
+    margin-bottom: 1%;
+    border: none;
+    background: transparent;
+    color: red;
+    font-weight: bold;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
