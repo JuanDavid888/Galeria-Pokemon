@@ -1,6 +1,13 @@
 body {
     background: beige;
+    padding: 1rem;
 }
+
+.title {
+    text-align: center;
+    font-family: 'Arial'
+}
+
 .card {
     display: grid;
     background: #b5fdfd;
@@ -16,12 +23,11 @@ body {
     justify-content: center;
     padding: 2rem;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(17rem, 1fr));
     gap: 2rem;
     margin-top: 5rem;
 }
 .name {
-
     color: #0c2ab3;
     text-align: center;
 }
