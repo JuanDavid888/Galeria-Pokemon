@@ -71,19 +71,17 @@ input {
     margin-top: 5rem;
 }
 .name {
-    position: absolute;
-    margin-top: 18%;
+    position: relative;
     margin-left: 4.5%;
     color: #0c2ab3;
     text-align: center;
 }
 .img {
-    position: absolute;
+    position: relative;
     background: #fff;
     display: flex;
-    height: 30%;
-    width: 14%;
-    margin-top: 1%;
+    height: 100%;
+    width: 100%;
     object-fit: contain;
     border-radius: 2rem;
 }

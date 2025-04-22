@@ -3,7 +3,7 @@ const namePoke = document.getElementById('namePoke')
 const imgPoke = document.getElementById('imgPoke')
 const addPoke = document.getElementById('addPoke')
 
-function agregarPoke() {
+function pokemon() {
     const card = document.createElement('div')
     card.classList.add('card')
     card.innerHTML = `
@@ -11,11 +11,6 @@ function agregarPoke() {
     <img class="img" src="${imgPoke.value}" alt="${namePoke.value}">
     <h2 class="name">${namePoke.value}</h2>`
     document.getElementById('list').appendChild(card)
-    
-    const removeButton = card.querySelector('.delete');
-    removeButton.addEventListener('click', function() {
-        card.remove();
-    });
 
     const changeImg = card.querySelector('img')
     const img = card.querySelector('img')
@@ -23,6 +18,10 @@ function agregarPoke() {
         let newImg = prompt('Ingrese la nueva URL del pokémon')
         img.src = `${newImg}`
     })
-}
-addPoke.addEventListener('click', agregarPoke)
 
+    const removeButton = card.querySelector('.delete');
+    removeButton.addEventListener('click', ()=>{
+        document.getElementById('list').removeChild(card)
+    });
+}
+addPoke.addEventListener('click', pokemon)
