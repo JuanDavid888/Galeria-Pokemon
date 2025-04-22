@@ -5,7 +5,7 @@ Crea una galería de “Pokémon” donde el usuario pueda:
 
 1. **Agregar** nuevas tarjetas con imagen y nombre.
 2. **Eliminar** tarjetas con un botón “X”.
-3. **Reemplazar** la imagen de una tarjeta al hacer clic.
+3. **Reemplazar** la imagen de una tarjeta al hacer doble clic.
 4. **Animar** la tarjeta al pasar el ratón (hover).
 
 **Objetivos**

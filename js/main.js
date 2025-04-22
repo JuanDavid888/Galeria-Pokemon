@@ -1,7 +1,9 @@
-// Doble click para cambiar foto
 const namePoke = document.getElementById('namePoke')
 const imgPoke = document.getElementById('imgPoke')
 const addPoke = document.getElementById('addPoke')
+
+// Sitio para usar las imagenes de pokémon
+let pokemones = 'https://www.pokemon.com/es/pokedex'
 
 function pokemon() {
     const card = document.createElement('div')
